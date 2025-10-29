@@ -14,30 +14,26 @@
  * limitations under the License.
  */
 
-package com.dongbao.test_demo3.demos.web;
+package com.dongbao.test_demo3.entity;
+
+import lombok.Data;
+
+import java.util.Date;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
  */
-public class User {
+@Data
+
+public class EmpInfo {
 
     private String name;
+    private String  empNo;
+    private Integer  isDelete;
 
-    private Integer age;
 
-    public String getName() {
-        return name;
-    }
+    private Date  enableDate;
+    private Date   unableDate;
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
 }
