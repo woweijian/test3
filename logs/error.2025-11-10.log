@@ -1,0 +1,4 @@
+2025-11-10 13:52:49.153 [http-nio-8082-exec-2] ERROR c.d.test_demo3.controller.ExceptionController - 进入全局异常测试方法，参数name为：global
+2025-11-10 13:52:49.155 [http-nio-8082-exec-2] ERROR c.d.test_demo3.Exception.GlobalExceptionHandler - 捕获到全局异常，异常信息为：参数name不能为global11
+2025-11-10 13:53:06.502 [http-nio-8080-exec-1] ERROR c.d.test_demo3.controller.ExceptionController - 进入全局异常测试方法，参数name为：global
+2025-11-10 13:53:06.503 [http-nio-8080-exec-1] ERROR c.d.test_demo3.Exception.GlobalExceptionHandler - 捕获到全局异常，异常信息为：参数name不能为global11

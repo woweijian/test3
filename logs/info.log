@@ -1,0 +1,8 @@
+2025-11-25 08:40:58.458 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - Starting RedisConnectionTest using Java 1.8.0_151 on IT-013487 with PID 21784 (started by 013487 in E:\javaProject\test_demo3)
+2025-11-25 08:40:58.473 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - No active profile set, falling back to 1 default profile: "default"
+2025-11-25 08:40:59.325 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-25 08:40:59.329 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-25 08:40:59.350 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2025-11-25 08:41:00.783 [main] INFO  com.dongbao.test_demo3.config.AsyncConfig - 异步任务执行器已启用
+2025-11-25 08:41:01.418 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-25 08:41:01.976 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - Started RedisConnectionTest in 3.866 seconds (JVM running for 4.856)

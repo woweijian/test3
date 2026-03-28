@@ -1,0 +1,22 @@
+2025-11-21 10:32:43.478 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 13:19:03.297 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 13:27:33.560 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 13:30:24.880 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 14:35:00.761 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 14:36:56.316 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 14:49:21.711 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 14:50:22.165 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 14:52:50.233 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 14:55:47.131 [main] ERROR com.dongbao.test_demo3.TestMybatisPlus - ❌ 记录不存在 - ID: 1839563230621540353
+2025-11-21 15:02:30.674 [main] ERROR com.dongbao.test_demo3.TestMybatisPlus - ❌ 记录不存在 - ID: 1839563230621540353
+2025-11-21 15:40:21.843 [main] ERROR com.dongbao.test_demo3.TestMybatisPlus - ❌ 记录不存在 - ID: 1839563230621540353
+2025-11-21 16:05:22.521 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 16:07:44.109 [main] ERROR com.dongbao.test_demo3.TestMybatisPlus - ❌ 记录不存在 - ID: 1839563230621540353
+2025-11-21 16:08:52.417 [main] ERROR com.dongbao.test_demo3.TestMybatisPlus - ❌ 记录不存在 - ID: 1839563230621540353
+2025-11-21 16:11:37.846 [main] ERROR com.dongbao.test_demo3.TestMybatisPlus - ❌ 记录不存在 - ID: 1839563230621540353
+2025-11-21 16:31:57.238 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 16:33:03.840 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 16:33:48.790 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 16:35:12.683 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 16:35:52.232 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487
+2025-11-21 16:37:43.938 [main] ERROR c.d.test_demo3.CacheService.EmpInfoCacheService - 已删除缓存员工信息，key: empInfo:013487

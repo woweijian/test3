@@ -1,0 +1,48 @@
+13:24:20.977 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - Starting RedisConnectionTest using Java 1.8.0_151 on IT-013487 with PID 29028 (started by 013487 in E:\javaProject\test_demo3)
+13:24:21.021 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - No active profile set, falling back to 1 default profile: "default"
+13:24:22.165 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+13:24:22.167 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:24:22.185 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+13:24:22.985 [main] WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector - class com.dongbao.test_demo3.entity.AttWorkHourDay ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+13:24:24.052 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+13:24:24.386 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+13:24:24.389 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+13:24:25.267 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - Started RedisConnectionTest in 4.752 seconds (JVM running for 6.284)
+13:48:51.793 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - Starting RedisConnectionTest using Java 1.8.0_151 on IT-013487 with PID 26516 (started by 013487 in E:\javaProject\test_demo3)
+13:48:51.812 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - No active profile set, falling back to 1 default profile: "default"
+13:48:52.392 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+13:48:52.396 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:48:52.428 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+13:48:53.124 [main] WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector - class com.dongbao.test_demo3.entity.AttWorkHourDay ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+13:48:54.615 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+13:48:54.930 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+13:48:54.937 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+13:48:55.534 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - Started RedisConnectionTest in 4.031 seconds (JVM running for 4.759)
+17:06:27.309 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - Starting RedisConnectionTest using Java 1.8.0_151 on IT-013487 with PID 26536 (started by 013487 in E:\javaProject\test_demo3)
+17:06:27.324 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - No active profile set, falling back to 1 default profile: "default"
+17:06:27.938 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+17:06:27.941 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:06:27.965 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+17:06:28.682 [main] WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector - class com.dongbao.test_demo3.entity.AttWorkHourDay ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:06:30.130 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+17:06:30.352 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+17:06:30.356 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+17:06:30.916 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - Started RedisConnectionTest in 3.894 seconds (JVM running for 4.602)
+17:06:31.642 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:06:32.293 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:06:32.862 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:06:32.881 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:06:40.268 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - Starting RedisConnectionTest using Java 1.8.0_151 on IT-013487 with PID 26320 (started by 013487 in E:\javaProject\test_demo3)
+17:06:40.269 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - No active profile set, falling back to 1 default profile: "default"
+17:06:40.824 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+17:06:40.826 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:06:40.844 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+17:06:41.502 [main] WARN  c.b.mybatisplus.core.injector.DefaultSqlInjector - class com.dongbao.test_demo3.entity.AttWorkHourDay ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:06:42.779 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+17:06:42.993 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+17:06:42.997 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+17:06:43.543 [main] INFO  com.dongbao.test_demo3.RedisConnectionTest - Started RedisConnectionTest in 3.56 seconds (JVM running for 4.218)
+17:06:44.000 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:06:44.705 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:06:45.221 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:06:45.233 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

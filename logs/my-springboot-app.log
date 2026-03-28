@@ -1,0 +1,255 @@
+2025-11-08 17:45:53.714 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-08 17:45:53.715 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 17:45:53.803 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-08 17:45:53.804 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-08 17:45:53.808 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-11-08 17:45:53.833 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-08 17:45:53.833 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:45:53.833 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 17:45:53.833 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-08 17:45:53.842 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 17:45:53.842 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 126 ms
+2025-11-08 17:45:53.937 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-08 17:45:53.947 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-08 17:45:53.947 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2025-11-08 17:45:53.977 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-08 17:45:53.982 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:45:53.983 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-08 17:45:53.987 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.288 seconds (JVM running for 328.509)
+2025-11-08 17:45:53.988 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-08 17:45:58.696 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-08 17:45:58.696 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-08 17:45:58.697 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-08 17:45:58.698 [http-nio-8080-exec-1] ERROR c.d.test_demo3.controller.ExceptionController - 进入全局异常测试方法，参数name为：global
+2025-11-08 17:45:58.698 [http-nio-8080-exec-1] ERROR c.d.test_demo3.Exception.GlobalExceptionHandler - 捕获到全局异常，异常信息为：参数name不能为global11
+2025-11-08 17:48:03.010 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-08 17:48:03.042 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:48:03.043 [Thread-19] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 17:48:03.043 [Thread-19] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-11-08 17:48:03.046 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:48:03.047 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:48:03.208 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - 'File' option has the same value "./logs/error.log" as that given for appender [ERROR_FILE] defined earlier.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.util.ArrayList.forEach(ArrayList.java:1255)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.dongbao.test_demo3.TestDemo3Application.main(TestDemo3Application.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - 'File' option has the same value "./logs/error.log" as that given for appender [ERROR_FILE] defined earlier.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 23 common frames omitted
+2025-11-08 17:48:31.228 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-08 17:48:31.229 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 17:48:31.313 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-08 17:48:31.313 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-08 17:48:31.317 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-11-08 17:48:31.340 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-08 17:48:31.341 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:48:31.341 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 17:48:31.341 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-08 17:48:31.349 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 17:48:31.349 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 119 ms
+2025-11-08 17:48:31.438 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-08 17:48:31.447 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-08 17:48:31.447 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2025-11-08 17:48:31.470 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-08 17:48:31.475 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:48:31.476 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-08 17:48:31.479 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.279 seconds (JVM running for 485.999)
+2025-11-08 17:48:31.479 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-08 17:48:37.065 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-08 17:48:37.065 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-08 17:48:37.066 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-08 17:48:37.067 [http-nio-8080-exec-2] ERROR c.d.test_demo3.controller.ExceptionController - 进入全局异常测试方法，参数name为：global
+2025-11-08 17:48:37.068 [http-nio-8080-exec-2] ERROR c.d.test_demo3.Exception.GlobalExceptionHandler - 捕获到全局异常，异常信息为：参数name不能为global11
+2025-11-08 17:50:14.883 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-08 17:50:14.928 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:50:14.928 [Thread-23] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 17:50:14.929 [Thread-23] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-11-08 17:50:14.931 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:50:14.932 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:50:15.095 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-08 17:50:15.096 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 17:50:15.194 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-08 17:50:15.194 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-08 17:50:15.197 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-11-08 17:50:15.231 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-08 17:50:15.232 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:50:15.232 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 17:50:15.232 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-08 17:50:15.244 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 17:50:15.245 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 148 ms
+2025-11-08 17:50:15.381 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-08 17:50:15.396 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-08 17:50:15.396 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2025-11-08 17:50:15.424 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-08 17:50:15.429 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:50:15.430 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-08 17:50:15.433 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.359 seconds (JVM running for 589.953)
+2025-11-08 17:50:15.434 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-08 17:52:50.714 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-08 17:52:50.746 [Thread-29] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:52:50.747 [Thread-29] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 17:52:50.750 [Thread-29] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:52:50.752 [Thread-29] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:52:50.875 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-08 17:52:50.876 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 17:52:51.026 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:52:51.027 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 17:52:51.027 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-08 17:52:51.036 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 17:52:51.143 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-08 17:52:51.143 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2025-11-08 17:52:51.177 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:52:51.180 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.328 seconds (JVM running for 745.698)
+2025-11-08 17:53:12.968 [Thread-33] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:53:12.969 [Thread-33] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 17:53:12.972 [Thread-33] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:53:12.973 [Thread-33] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:53:55.322 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-08 17:53:55.323 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 17:53:55.441 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:53:55.441 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 17:53:55.441 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-08 17:53:55.448 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 17:53:55.552 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-08 17:53:55.552 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2025-11-08 17:53:55.581 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:53:55.584 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.29 seconds (JVM running for 810.098)
+2025-11-08 17:54:07.274 [Thread-37] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:54:07.274 [Thread-37] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 17:54:07.275 [Thread-37] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:54:07.276 [Thread-37] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:54:07.345 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-08 17:54:07.345 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 17:54:07.437 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-08 17:54:07.437 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-08 17:54:07.439 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2025-11-08 17:54:07.465 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-08 17:54:07.465 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:54:07.465 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 17:54:07.465 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-08 17:54:07.474 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 17:54:07.474 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 128 ms
+2025-11-08 17:54:07.570 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-08 17:54:07.580 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-08 17:54:07.580 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2025-11-08 17:54:07.606 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-08 17:54:07.612 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:54:07.613 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-08 17:54:07.615 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.282 seconds (JVM running for 822.129)
+2025-11-08 17:54:07.616 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-08 17:56:47.220 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-08 17:56:47.249 [Thread-43] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:56:47.250 [Thread-43] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 17:56:47.253 [Thread-43] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:56:47.254 [Thread-43] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:56:47.380 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-08 17:56:47.381 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 17:56:47.474 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-08 17:56:47.474 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-08 17:56:47.477 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-11-08 17:56:47.503 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-08 17:56:47.503 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:56:47.503 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 17:56:47.503 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-08 17:56:47.512 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 17:56:47.512 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 130 ms
+2025-11-08 17:56:47.601 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-08 17:56:47.612 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-08 17:56:47.612 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2025-11-08 17:56:47.637 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-08 17:56:47.642 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:56:47.643 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-08 17:56:47.645 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.281 seconds (JVM running for 982.151)
+2025-11-08 17:56:47.646 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-08 17:58:24.852 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-08 17:58:24.880 [Thread-47] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:58:24.880 [Thread-47] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 17:58:24.882 [Thread-47] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:58:24.884 [Thread-47] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:58:24.977 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-08 17:58:24.977 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 17:58:25.054 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-08 17:58:25.054 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-08 17:58:25.057 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-11-08 17:58:25.085 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-08 17:58:25.085 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:58:25.086 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 17:58:25.086 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-08 17:58:25.095 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 17:58:25.095 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 117 ms
+2025-11-08 17:58:25.193 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-08 17:58:25.208 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-08 17:58:25.208 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2025-11-08 17:58:25.238 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-08 17:58:25.243 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:58:25.245 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-08 17:58:25.247 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.282 seconds (JVM running for 1079.751)
+2025-11-08 17:58:25.248 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-08 17:58:48.090 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-08 17:58:48.117 [Thread-51] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:58:48.117 [Thread-51] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 17:58:48.119 [Thread-51] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:58:48.120 [Thread-51] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:59:44.652 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-08 17:59:44.652 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 17:59:44.732 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-08 17:59:44.732 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-08 17:59:44.735 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-11-08 17:59:44.763 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-08 17:59:44.763 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:59:44.763 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 17:59:44.763 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-08 17:59:44.774 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 17:59:44.774 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 121 ms
+2025-11-08 17:59:44.881 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-08 17:59:44.892 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-08 17:59:44.892 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2025-11-08 17:59:44.918 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-08 17:59:44.924 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 17:59:44.926 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-08 17:59:44.928 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.286 seconds (JVM running for 1159.43)
+2025-11-08 17:59:44.929 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-08 17:59:51.895 [http-nio-8080-exec-7] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-08 17:59:51.895 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-08 17:59:51.896 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-08 17:59:51.897 [http-nio-8080-exec-7] ERROR c.d.test_demo3.controller.ExceptionController - 进入全局异常测试方法，参数name为：global
+2025-11-08 17:59:51.897 [http-nio-8080-exec-7] ERROR c.d.test_demo3.Exception.GlobalExceptionHandler - 捕获到全局异常，异常信息为：参数name不能为global11
+2025-11-08 18:00:09.326 [http-nio-8080-exec-2] ERROR c.d.test_demo3.controller.ExceptionController - 进入全局异常测试方法，参数name为：global
+2025-11-08 18:00:09.327 [http-nio-8080-exec-2] ERROR c.d.test_demo3.Exception.GlobalExceptionHandler - 捕获到全局异常，异常信息为：参数name不能为global11
+2025-11-08 18:00:16.898 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-08 18:00:16.930 [Thread-55] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-08 18:00:16.930 [Thread-55] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 18:00:16.931 [Thread-55] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-11-08 18:00:16.933 [Thread-55] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-08 18:00:16.934 [Thread-55] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]

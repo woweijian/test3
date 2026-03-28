@@ -1,0 +1,54 @@
+2025-11-08 18:00:17.024 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-08 18:00:17.025 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 18:00:17.119 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-08 18:00:17.119 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-08 18:00:17.124 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-11-08 18:00:17.153 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-08 18:00:17.154 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 18:00:17.154 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 18:00:17.154 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-08 18:00:17.165 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 18:00:17.165 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 139 ms
+2025-11-08 18:00:17.273 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-08 18:00:17.284 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-08 18:00:17.284 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2025-11-08 18:00:17.323 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-08 18:00:17.330 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 18:00:17.332 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-08 18:00:17.335 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.323 seconds (JVM running for 1191.836)
+2025-11-08 18:00:17.336 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-08 18:00:19.900 [http-nio-8080-exec-7] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-08 18:00:19.901 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-08 18:00:19.902 [http-nio-8080-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-08 18:00:19.904 [http-nio-8080-exec-7] ERROR c.d.test_demo3.controller.ExceptionController - 进入全局异常测试方法，参数name为：global
+2025-11-08 18:00:19.905 [http-nio-8080-exec-7] ERROR c.d.test_demo3.Exception.GlobalExceptionHandler - 捕获到全局异常，异常信息为：参数name不能为global11
+2025-11-08 18:01:02.613 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-08 18:01:02.638 [Thread-61] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-08 18:01:02.638 [Thread-61] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 18:01:02.639 [Thread-61] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-11-08 18:01:02.640 [Thread-61] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-08 18:01:02.642 [Thread-61] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+18:01:02.738 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 15500 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+18:01:02.738 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+18:01:02.820 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+18:01:02.820 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+18:01:02.823 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+18:01:02.853 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:01:02.854 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:01:02.854 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+18:01:02.854 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+18:01:02.864 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:01:02.864 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 125 ms
+18:01:02.957 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+18:01:02.966 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+18:01:02.966 [restartedMain] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+18:01:02.991 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18:01:02.995 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:01:02.997 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:01:02.999 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.275 seconds (JVM running for 1237.499)
+18:01:03.000 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+18:01:04.144 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:01:04.144 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:01:04.145 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+18:01:04.146 [http-nio-8080-exec-2] ERROR c.d.test_demo3.controller.ExceptionController - 进入全局异常测试方法，参数name为：global
+18:01:04.146 [http-nio-8080-exec-2] ERROR c.d.test_demo3.Exception.GlobalExceptionHandler - 捕获到全局异常，异常信息为：参数name不能为global11

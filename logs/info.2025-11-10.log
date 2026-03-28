@@ -1,0 +1,213 @@
+2025-11-10 13:52:28.482 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 25552 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-10 13:52:28.487 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 13:52:28.522 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-10 13:52:29.102 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-10 13:52:29.107 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-10 13:52:29.124 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-11-10 13:52:29.454 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2025-11-10 13:52:29.459 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-11-10 13:52:29.459 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 13:52:29.460 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-10 13:52:29.546 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 13:52:29.547 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1024 ms
+2025-11-10 13:52:30.068 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-10 13:52:30.385 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-10 13:52:30.396 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-11-10 13:52:30.411 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2025-11-10 13:52:30.418 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 2.303 seconds (JVM running for 2.858)
+2025-11-10 13:52:49.138 [http-nio-8082-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10 13:52:49.138 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-10 13:52:49.139 [http-nio-8082-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-10 13:53:01.281 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 23416 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-10 13:53:01.282 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 13:53:01.308 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-10 13:53:01.722 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-10 13:53:01.723 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-10 13:53:01.737 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-11-10 13:53:02.001 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-10 13:53:02.007 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-10 13:53:02.008 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 13:53:02.008 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-10 13:53:02.089 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 13:53:02.089 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 780 ms
+2025-11-10 13:53:02.572 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-10 13:53:02.856 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-10 13:53:02.866 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-10 13:53:02.873 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 1.813 seconds (JVM running for 2.201)
+2025-11-10 13:53:06.485 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10 13:53:06.486 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-10 13:53:06.486 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-10 14:29:34.220 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-11-10 14:29:34.232 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-11-10 14:29:34.268 [Thread-2] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:29:34.268 [Thread-2] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 14:29:34.269 [Thread-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-11-10 14:29:34.272 [Thread-2] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:29:34.274 [Thread-2] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:29:34.283 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:29:34.283 [Thread-8] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 14:29:34.284 [Thread-8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-11-10 14:29:34.288 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:29:34.290 [Thread-8] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:29:34.439 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 23416 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-10 14:29:34.440 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 14:29:34.460 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 25552 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-10 14:29:34.461 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 14:29:34.700 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-10 14:29:34.700 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-10 14:29:34.705 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-11-10 14:29:34.706 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-10 14:29:34.706 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-10 14:29:34.710 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-11-10 14:29:34.753 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2025-11-10 14:29:34.753 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-10 14:29:34.753 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:29:34.753 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:29:34.753 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 14:29:34.753 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 14:29:34.753 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-10 14:29:34.753 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-10 14:29:34.768 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 14:29:34.768 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 14:29:34.768 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 327 ms
+2025-11-10 14:29:34.768 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 306 ms
+2025-11-10 14:29:34.948 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-10 14:29:34.950 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-10 14:29:35.015 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-10 14:29:35.019 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:29:35.021 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-10 14:29:35.022 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:29:35.023 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2025-11-10 14:29:35.024 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.62 seconds (JVM running for 2194.313)
+2025-11-10 14:29:35.026 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-10 14:29:35.027 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.59 seconds (JVM running for 2227.427)
+2025-11-10 14:29:35.028 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-10 14:30:49.577 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-10 14:30:49.615 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:30:49.615 [Thread-15] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 14:30:49.616 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:30:49.618 [Thread-15] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:30:49.717 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-10 14:30:49.723 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 25552 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-10 14:30:49.723 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 14:30:49.759 [Thread-13] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:30:49.759 [Thread-13] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 14:30:49.764 [Thread-13] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:30:49.766 [Thread-13] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:30:49.841 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-10 14:30:49.841 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-10 14:30:49.847 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-11-10 14:30:49.894 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2025-11-10 14:30:49.895 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:30:49.895 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 14:30:49.895 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-10 14:30:49.906 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 23416 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-10 14:30:49.906 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 14:30:49.909 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 14:30:49.909 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 184 ms
+2025-11-10 14:30:50.025 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-10 14:30:50.025 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-10 14:30:50.029 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-11-10 14:30:50.044 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-10 14:30:50.068 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-10 14:30:50.069 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:30:50.069 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 14:30:50.069 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-10 14:30:50.080 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 14:30:50.081 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 174 ms
+2025-11-10 14:30:50.100 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-10 14:30:50.105 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:30:50.106 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2025-11-10 14:30:50.110 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.404 seconds (JVM running for 2302.508)
+2025-11-10 14:30:50.111 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-10 14:30:50.200 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-10 14:30:50.245 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:30:50.247 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-10 14:30:50.250 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.371 seconds (JVM running for 2269.537)
+2025-11-10 14:30:50.251 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-10 14:31:14.972 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-11-10 14:31:15.012 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:31:15.012 [Thread-19] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 14:31:15.014 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:31:15.015 [Thread-19] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:31:15.082 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-11-10 14:31:15.125 [Thread-17] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:31:15.125 [Thread-17] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 14:31:15.129 [Thread-17] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:31:15.131 [Thread-17] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:31:15.158 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 25552 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-10 14:31:15.159 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 14:31:15.257 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-10 14:31:15.257 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-10 14:31:15.260 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-11-10 14:31:15.261 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 23416 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-10 14:31:15.261 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 14:31:15.291 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2025-11-10 14:31:15.292 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:31:15.292 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 14:31:15.292 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-10 14:31:15.300 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 14:31:15.300 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 140 ms
+2025-11-10 14:31:15.356 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-10 14:31:15.356 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-10 14:31:15.359 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-11-10 14:31:15.390 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-10 14:31:15.391 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:31:15.391 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 14:31:15.391 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-10 14:31:15.400 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 14:31:15.400 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 138 ms
+2025-11-10 14:31:15.421 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-10 14:31:15.465 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-10 14:31:15.470 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:31:15.472 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2025-11-10 14:31:15.475 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.341 seconds (JVM running for 2327.871)
+2025-11-10 14:31:15.476 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-10 14:31:15.517 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-10 14:31:15.558 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:31:15.560 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-10 14:31:15.563 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.32 seconds (JVM running for 2294.848)
+2025-11-10 14:31:15.563 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-10 14:31:17.914 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-10 14:31:17.956 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:31:17.956 [Thread-23] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 14:31:17.958 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:31:17.959 [Thread-23] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:31:17.978 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-10 14:31:18.025 [Thread-21] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:31:18.025 [Thread-21] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-10 14:31:18.028 [Thread-21] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:31:18.030 [Thread-21] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:31:18.074 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 25552 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-10 14:31:18.074 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 14:31:18.141 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Starting TestDemo3Application using Java 1.8.0_151 on IT-013487 with PID 23416 (E:\javaProject\test_demo3\target\classes started by 013487 in E:\javaProject\test_demo3)
+2025-11-10 14:31:18.141 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 14:31:18.167 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-10 14:31:18.167 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-10 14:31:18.170 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-11-10 14:31:18.199 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+2025-11-10 14:31:18.199 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:31:18.200 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 14:31:18.200 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-10 14:31:18.211 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 14:31:18.211 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 136 ms
+2025-11-10 14:31:18.235 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-11-10 14:31:18.235 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-11-10 14:31:18.238 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2025-11-10 14:31:18.276 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-11-10 14:31:18.277 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:31:18.277 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-10 14:31:18.277 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-11-10 14:31:18.285 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-10 14:31:18.285 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 143 ms
+2025-11-10 14:31:18.343 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-10 14:31:18.387 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-10 14:31:18.392 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2025-11-10 14:31:18.394 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+2025-11-10 14:31:18.397 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.345 seconds (JVM running for 2330.793)
+2025-11-10 14:31:18.397 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-10 14:31:18.411 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-11-10 14:31:18.458 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-10 14:31:18.459 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-11-10 14:31:18.463 [restartedMain] INFO  com.dongbao.test_demo3.TestDemo3Application - Started TestDemo3Application in 0.34 seconds (JVM running for 2297.749)
+2025-11-10 14:31:18.464 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
